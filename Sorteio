@@ -1,0 +1,13 @@
+import random
+
+primeiro = str ( input ('Nome do primeiro aluno: '))
+segundo = str ( input ('Nome do segundo aluno: '))
+terceiro = str ( input ('Nome do terceiro aluno: '))
+quarto = str ( input ('Nome do quarto aluno: '))
+quinto = str ( input ('Nome do quinto aluno: '))
+
+nomes = [primeiro, segundo, terceiro, quarto, quinto]
+
+roleta = random.choice(nomes)
+
+print('O aluno(a) selecionado é {}'.format(roleta))
